@@ -6,6 +6,8 @@ import router from "./Routers/Routers";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className="max-w-screen-full">
+      <RouterProvider router={router} />
+    </div>
   </React.StrictMode>
 );
